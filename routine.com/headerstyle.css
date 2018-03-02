@@ -1,0 +1,135 @@
+*{
+  user-select: none;
+}
+body{
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+header{
+  width: 100%;
+  height: 3%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 7px;
+}
+div.footer {
+    font-size: 12px;
+    font-family: helvetica;
+    position: absolute;
+    margin-top:50px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 900px;
+    vertical-align: bottom;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  margin: none;
+}
+li{
+  list-style: none;
+}
+a#inavbar ul li{
+  margin-top: 5px;
+}
+li.nav{
+  float: right;
+  margin-left: 20px;
+  padding-top: 12px;
+}
+a#inavbar, a#logo{
+  margin-left: none;
+  background: #F2F2F2;
+}
+li#navbar ul{
+  display: none;
+  position: fixed;
+  background: #F2F2F2;
+  opacity: 0.7;
+}
+ul#slide li{
+  width: 80px;
+}
+div.slideshow{
+  margin: 7% auto;
+}
+.bgimg{
+  width: 900px;
+  height: 600px;
+  display: none;
+}
+.firstbgimg{
+  display: block;
+}
+a:hover{
+  color: black;
+  font-weight: bold;
+}
+#slide:hover{
+  opacity: 1.0;
+  transition: 200ms ease-in;
+}
+a#logo{
+  font-size: 25px;
+  float: left;
+}
+ul#nav li {
+  margin-top: 10px;
+  margin-left: none;
+}
+.selected{
+  font-weight: bold;
+}
+hr{
+  border:2px solid #33003D;
+}
+.main{
+  display: none;
+}
+/*---------------------------input태그--------------------------------------------*/
+input{
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+input:focus{
+  border-bottom-color: #33003D;
+  transition: 200ms ease-in;
+}
+div.form {
+  width: 100%;
+  height: 100%;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+form.logjoin input{
+  font-size: 20px;
+  height: 40px;
+}
+.inputmargin{
+  margin-top: 15px;
+}
+input#submitbutton{
+  background: white;
+  border: 2px solid gray;
+}
+a#logo{
+  font-weight: normal;
+}
+input#submitbutton:hover{
+  border-color: #33003D;
+  transition: 200ms ease-in;
+}
+form.logjoin{
+  width: 250px;
+  margin: 10% auto;
+}
+option{
+  font-size: 20px;
+  height: 40px;
+}
