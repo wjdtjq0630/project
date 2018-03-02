@@ -23,19 +23,19 @@
  			var join_name = $("input[name=join_name]").val();
  			var join_phn = $("input[name=join_phn]").val();
  			if(join_id == ""){
- 				alert('아이디를 입력하세요.');
+ 				alert('아이디를 입력하세요!');
  				return false;
  			} else if(join_pw == ""){
- 				alert('비밀번호를 입력하세요');
+ 				alert('비밀번호를 입력하세요!');
  				return false;
  			} else if(join_name == ""){
- 				alert('이름을 입력하세요');
+ 				alert('이름을 입력하세요!');
  				return false;
  			} else if(join_phn == ""){
- 				alert('전화번호를 입력하세요');
+ 				alert('전화번호를 입력하세요!');
  				return false;
  			} else{
- 				alert('가입 완료');
+ 				alert('가입 완료!');
  				return true;
  			}
 
